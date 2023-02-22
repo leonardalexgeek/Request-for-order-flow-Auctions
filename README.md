@@ -1,10 +1,10 @@
 # Request-Order-Flow-Auctions-For-Oracles
 
 
-# Designed and built for the Mantle mash hackathon
+### Designed and built for the Mantle mash hackathon
 
 
-# Issues with Generalised OF Auctions for Oracles
+## Issues with Generalised OF Auctions for Oracles
 
 When designing an MEV solution for oracles, we know that we should build an order flow auction mechanism. Except in the case of oracles, regular payment for order flow of already generated transactions introduces latency that would decrease their quality of service. Instead of being able to send transactions directly to block producers, there is this new auction step before the transaction can be relayed to the block producer. Every transaction would suffer from this latency whether it generates any value or not, because the oracle will not have any insight into this and must send all transactions to the private channel. Most users submitting trades would not notice the latency of this process as it may only take a few seconds, but for an oracle this is a far from ideal disruption of the underlying service. Oracles also have to consider that private channels may experience downtime as they will not be as decentralised as the public mempool, which adds even more latency and disruption to transactions.  
 
