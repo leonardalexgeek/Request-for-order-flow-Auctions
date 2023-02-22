@@ -3,6 +3,9 @@
 
 ### Designed and built for the Mantle mash hackathon
 
+### Video:
+https://drive.google.com/file/d/1eck2ancjedYJWXJXotjDK_CfU4zehUgZ/view?usp=sharing
+
 
 ## Issues with Generalised OF Auctions for Oracles
 
